@@ -919,7 +919,8 @@ namespace Oxide.Plugins
                 {
                     Image = { Color = ColFondo },
                     RectTransform = { AnchorMin = "0 0", AnchorMax = "1 1" },
-                    CursorEnabled = true
+                    CursorEnabled = true,
+                    KeyboardEnabled = true
                 }, "Overlay", UiFondo);
                 abiertos.Add(jugador.userID);
             }
